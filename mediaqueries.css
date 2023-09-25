@@ -1,0 +1,323 @@
+@media screen and (max-width: 1700px) {
+    header {
+        padding: 2rem 10%;
+    }
+
+    header.stick {
+        padding: 0.95rem 10%
+    }
+
+    main{
+        padding: 6rem 10%;
+    }
+
+    .about,
+    .projects{
+        padding: 6rem 0rem;
+    }
+
+    .contact {
+        padding-top: 6rem;
+    }
+
+    footer {
+        padding: 1.5rem 10%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    header {
+        padding: 2rem 7%;
+    }
+
+    header.stick {
+        padding: 0.95rem 7%
+    }
+
+    main{
+        padding: 6rem 7%;
+    }
+
+    footer {
+        padding: 1.5rem 7%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .my-img {
+        width: 28rem;
+        height: 28rem;
+    }
+    .my-img::before{
+        width: 28.5rem;
+        height: 28.5rem;
+    }
+    .my-img::after{
+        width: 28rem;
+        height: 28rem;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 1380px) {
+    header {
+        padding: 1.5rem 5%;
+    }
+
+    header.stick {
+        padding: 0.85rem 5%
+    }
+
+    main{
+        padding: 4rem 5%;
+    }
+
+    .home-page{
+        height: 90vh;
+    }
+
+    .about,
+    .projects {
+        padding: 5rem 0rem;
+    }
+
+    .contact {
+        padding-top: 5rem;
+    }
+
+    footer {
+        padding: 1.25rem 5%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .intro h3 {
+        font-size: 1.2rem;
+    }
+    
+    .intro h1 {
+        font-size: 3.6rem;
+    }
+    
+    .intro p {
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+    }
+    .content{
+        width: 34.5rem;
+    }
+
+    .my-img {
+        width: 24rem;
+        height: 24rem;
+    }
+    .my-img::before{
+        width: 24.5rem;
+        height: 24.5rem;
+    }
+    .my-img::after{
+        width: 24rem;
+        height: 24rem;
+    }
+    
+    .project-content {
+        padding: 2.25rem 1.75rem;
+        height: 35rem;
+    }
+
+    .project-content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .intro h3 {
+        font-size: 1rem;
+    }
+    
+    .intro h1 {
+        font-size: 3rem;
+    }
+    
+    .intro p {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    .content{
+        width: 25rem;
+    }
+    .social-links i {
+        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
+        box-shadow: 0rem 0rem 0.75rem transparent;
+    }
+    .social-links i:hover {
+        transform: scale(1.05);
+        box-shadow: 0rem 0rem 0.75rem #13bbff;
+    }
+    .btns {
+        padding: 0.5rem 0.75rem;
+        font-size: 1rem;
+    }
+    
+    .btns:hover {
+        box-shadow: 0rem 0rem 0.75rem #13bbff;
+        transform: translateY(-0.5rem) scale(1.05);
+    }
+    
+    .my-img {
+        width: 24rem;
+        height: 24rem;
+    }
+    .my-img::before{
+        width: 24.5rem;
+        height: 24.5rem;
+    }
+    .my-img::after{
+        width: 24rem;
+        height: 24rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .my-img {
+        width: 20rem;
+        height: 20rem;
+    }
+    .my-img::before{
+        width: 20.5rem;
+        height: 20.5rem;
+    }
+    .my-img::after{
+        width: 20rem;
+        height: 20rem;
+    }
+    .project-content{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #menu{
+        display: block;
+        position: absolute;
+        right: 3rem;
+    }
+    .nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 20rem;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background: #262c35;
+        transition: all 0.5s ease;
+        box-shadow: -0.5rem 0 1rem rgba(0,0,0,0.5);
+    }
+    .nav a{
+        display: block;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .nav.activate{
+        right: 0;
+    }
+    .home-page{
+        height: 70vh;
+    }
+    .intro {
+        display: flex;
+        justify-content: center;
+        height: 70vh;
+    }
+    .intro h1 {
+        font-weight: 700;
+    }
+    .intro p {
+        width: 100%;
+    }
+    
+    #home-img{
+        display: none;
+    }
+    #about-img{
+        display: flex;
+        float: none;
+        margin: 5rem auto;
+    }
+    .my-img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 5rem;
+    }
+    .my-img::before{
+        width: 20.5rem;
+        height: 20.5rem;
+    }
+    .my-img::after{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 90%;
+    }
+    .tabs{
+        justify-content: space-between;
+        margin: 5rem 2rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+    }
+    .tabs{
+        justify-content: space-between;
+        margin: 3rem 0rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .intro h3{
+        font-size: 0.9rem;
+    }
+    .intro h1{
+        font-size: 2.5rem;
+    }.social-links i {
+        font-size: 0.9rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        box-shadow: 0rem 0rem 0.5rem transparent;
+    }
+    .social-links i:hover {
+        transform: scale(1.03);
+        box-shadow: 0rem 0rem 0.5rem #13bbff;
+    }
+    .project-content h3 {
+        font-size: 1.25rem;
+    }
+    .project-content p{
+        font-size: 0.75rem;
+    }
+    .btns {
+        padding: 0.25rem 0.55rem;
+        font-size: 0.9rem;
+    }
+    .btns:hover {
+        box-shadow: 0rem 0rem 0.55rem #13bbff;
+        transform: translateY(-0.25rem) scale(1.05);
+    }
+}

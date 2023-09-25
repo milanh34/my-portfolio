@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header data-aos="zoom-in-down">
+        <a href="#" class="title"><span>My</span> Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <ul class="nav">
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-user"></i>Contact Me</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="home-page" id="home" data-aos="zoom-out">
+            <div class="intro">
+                <div class="content">
+                    <h3>Hello, I'm</h3>
+                    <h1><span>Milan</span> Haria</h1>
+                    <p>Enthusiastic Computer Engineering student with a passion for Web Development.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/milanh34" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/milan-haria04" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/milan.haria.0304" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto: milanh344@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="intro-btns">
+                        <a href="#contact" class="btns">Contact Me</a>
+                        <a href="https://drive.google.com/file/d/1dgty9062Cj-KalQ1QjlKNDBl2lXiPivi/view?usp=sharing"
+                            target="_blank" class="btns btns2">My Resume</a>
+                    </div>
+                </div>
+                <div class="my-img" id="home-img" data-aos="zoom-in-down"></div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2 class="texts" data-aos="zoom-in-up">About <span>Me</span></h2>
+            <div class="my-img" id="about-img" data-aos="zoom-in-down"></div>
+            <div class="container" data-aos="zoom-in-down">
+                <p class="about-me">
+                    I'm a dedicated Computer Engineering student with a strong interest in web development. My journey
+                    into the world of technology began with a fascination for websites and has evolved into a genuine
+                    passion for creating digital experiences. I enjoy taking on new web development challenges and am
+                    excited to grow in this field. Eager to contribute my skills, learn from experienced
+                    professionals, and grow as a web developer
+                </p>
+                <div class="tabs">
+                    <p class="tab active" onclick="opentab('Education')">Education</p>
+                    <p class="tab" onclick="opentab('Courses')">Courses</p>
+                    <p class="tab" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab" onclick="opentab('Hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-text active-tab" id="Education">
+                    <ul>
+                        <li class="tab-li"><span class="tab-course">B.Tech in Computer Engineering (Second
+                                Year)</span><br><span class="tab-college">Dwarkadas J. Sanghvi College of
+                                Engineering</span><br>9.48 CGPA in First Year</li>
+                        <li class="tab-li"><span class="tab-course">HSC - 12th (2022)</span><br><span
+                                class="tab-college">The B.S.G.D'S Junior College, Malad</span><br>Aggregate Percentage :
+                            87.3%</li>
+                        <li class="tab-li"><span class="tab-course">SSC - 10th (2020)</span><br><span
+                                class="tab-college">St. Anthony's High School, Malad</span><br>Aggregate Percentage :
+                            92.8%</li>
+                    </ul>
+                </div>
+                <div class="tab-text" id="Courses">
+                    <ul>
+                        <li class="tab-li"><span class="tab-course">Front-End Web Development</span><br><span
+                                class="tab-college">from Intrainz</span><br><a
+                                href="https://drive.google.com/file/d/1RCtgnhMM9ufccAVq_SJkkUYX26Mu2_Jo/view?usp=sharing"
+                                target="_blank" class="certi">View Certificate</a></li>
+                        <li class="tab-li"><span class="tab-course">C++ Data Structures and Algorithms</span><br><span
+                                class="tab-college">from Devtown and Microsoft</span><br><a
+                                href="https://drive.google.com/file/d/1fPsSwq0DVOUlFFsKZ_4Jk1Ds55yGJHSa/view?usp=sharing"
+                                target="_blank" class="certi">View Certificate</a></li>
+                        <li class="tab-li"><span class="tab-course">PYTHON for Beginners</span><br><span
+                                class="tab-college">from Devtown and Google</span><br><a
+                                href="https://drive.google.com/file/d/19eqRDrIWFJpd0Eh3xneMdI__EV1WfQ0g/view?usp=sharing"
+                                target="_blank" class="certi">View Certificate</a></li>
+                    </ul>
+                </div>
+                <div class="tab-text" id="Skills">
+                    <ul>
+                        <li class="tab-li"><span class="tab-course">Soft Skills</span><br>
+                            Adaptability<br>
+                            Time management<br>
+                            Leadership Qualities<br>
+                            Problem solving<br>
+                            Fast Learner<br>
+                        </li>
+                        <li class="tab-li"><span class="tab-course">Hard Skills</span><br>
+                            Front-End Web Development<br>
+                            Java Programming<br>
+                            C Programming<br>
+                            Python<br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-text" id="Hobbies">
+                    <ul>
+                        <li class="tab-li"><span class="tab-course">Sketching</span></li>
+                        <li class="tab-li"><span class="tab-course">Photography</span></li>
+                        <li class="tab-li"><span class="tab-course">Gaming</span></li>
+                        <li class="tab-li"><span class="tab-course">Badminton & Table Tennis</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="texts" data-aos="fade-down"><span>My</span> Projects</h2>
+            <div class="projects-box" data-aos="zoom-in-up">
+                <div class="project-content">
+                    <img src="bookitnow.png" alt="bookitnow">
+                    <h3>Ticket Booking Website (Demo)</h3>
+                    <p>Includes features like searching, filtering, sorting events and a layout for seat selection.
+                        Also, User Authentication which makes it more secure.</p>
+                    <div class="project-btns">
+                        <a href="https://bookitnow-demo.netlify.app/" target="_blank" class="btns"><i
+                                class="fa-solid fa-server"></i> Live Demo</a>
+                        <a href="https://github.com/milanh34/Unicode-23_Milan" target="_blank" class="btns btns2"><i
+                                class="fa-brands fa-github"></i> Github</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <img src="calc.png" alt="calculator">
+                    <h3>Full-Fledged Working Calculator</h3>
+                    <p>A calculator which has an attractive and responsive layout made using css & working logically with the help of javascript.</p>
+                    <div class="project-btns">
+                        <a href="https://my-calc-project.netlify.app/" target="_blank" class="btns"><i
+                                class="fa-solid fa-server"></i> Live Demo</a>
+                        <a href="https://github.com/milanh34/my-calculator" target="_blank" class="btns btns2"><i
+                                class="fa-brands fa-github"></i> Github</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <img src="kozo.png" alt="kozo">
+                    <h3>Digital Payments Website (Demo)</h3>
+                    <p>This project has been made using a few UI/Ux desgins and a few extra features with a personal touch have been added.</p>
+                    <div class="project-btns">
+                        <a href="https://kozo-clone.netlify.app/" target="_blank" class="btns"><i
+                                class="fa-solid fa-server"></i> Live Demo</a>
+                        <a href="https://github.com/milanh34/DJCSI-Web-23_Milan" target="_blank" class="btns btns2"><i
+                                class="fa-brands fa-github"></i> Github</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="texts" data-aos="fade-down">Contact <span>Me</span></h2>
+            <div class="contact-form">
+                <form action="" name="submit-to-google-sheet" data-aos="zoom-in">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email Address" required>
+                    <textarea cols="30" name="Message" rows="10" placeholder="Write your message here..."
+                        required></textarea>
+                    <input type="submit" value="Send Message" class="send btns">
+                    <p id="msg"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="made-by">
+            <p>Made with <i class="fa-solid fa-heart fa-beat"></i> by Milan Haria</p>
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2023. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div id="back-to-top">
+        <a href="#"><i class="fa-solid fa-up-long fa-bounce"></i></a>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/3a9c7718dd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 700,
+        });
+    </script>
+</body>
+
+</html>
